@@ -35,10 +35,10 @@ function App() {
           <div>
             <Header />
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="sidebar" element={<Sidebar />} />
 
-              <Route exact path="cart" element={<Cart />} />
+              <Route path="cart" element={<Cart />} />
 
               <Route path="details" element={<Details />} />
               <Route path="login" element={<Login />} />
